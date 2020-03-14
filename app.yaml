@@ -1,8 +1,8 @@
 user: nobody
-group: nogroup
-chdir: /app
-port: 1080
+group: nobody
+chdir: /rails_app
+port: 3000
 rackup: config.ru
 environment: production
-servers: 1
-daemonize: true
+servers: 3
+daemonize: false
