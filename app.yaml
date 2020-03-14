@@ -1,0 +1,8 @@
+user: nobody
+group: nogroup
+chdir: /app
+port: 1080
+rackup: config.ru
+environment: production
+servers: 1
+daemonize: true
