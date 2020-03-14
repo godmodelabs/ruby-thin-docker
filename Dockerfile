@@ -5,7 +5,7 @@ RUN apt update -q -y &&\
 
 COPY app.yaml /etc/thin2.5/
 
-VOLUME /app
+VOLUME /rails_app
 
 EXPOSE 80
 
