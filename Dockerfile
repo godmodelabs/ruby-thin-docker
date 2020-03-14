@@ -3,7 +3,7 @@ FROM debian:stretch-slim
 RUN apt update -q -y &&\
     apt install -q -y thin
 
-COPY app.yml /etc/thin2.5/
+COPY app.yaml /etc/thin2.5/
 
 VOLUME /app
 
