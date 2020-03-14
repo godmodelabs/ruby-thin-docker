@@ -4,5 +4,5 @@ chdir: /rails_app
 port: 3000
 rackup: config.ru
 environment: production
-servers: 3
+servers: 1
 daemonize: false
