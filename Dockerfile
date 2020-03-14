@@ -1,4 +1,4 @@
-FROM debian-slim:latest
+FROM debian:stretch-slim
 
 RUN apt update -q -y &&\
     apt install -q -y thin &&\
