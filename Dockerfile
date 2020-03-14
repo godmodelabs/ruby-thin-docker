@@ -1,7 +1,7 @@
 FROM debian:stretch-slim
 
 RUN apt update -q -y &&\
-    apt install -q -y thin &&\
+    apt install -q -y thin
 
 COPY app.yml /etc/thin2.5/
 
